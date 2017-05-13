@@ -10,7 +10,7 @@ if (user.toUpperCase() === 'YES' || user.toUpperCase() === 'Y'){
 }
 
 var vet = prompt('Are you a Vet?' 'y/n');
-if (vet.toUpperCase() === 'YES' || user.toUpperCase() === 'Y' ){
+if (vet.toUpperCase() === 'YES' || vet.toUpperCase() === 'Y' ){
   console.log('vet: ', vet);
   alert('Thank you for your service.');
 } else {
@@ -19,7 +19,7 @@ if (vet.toUpperCase() === 'YES' || user.toUpperCase() === 'Y' ){
 }
 
 var clean = prompt('Do you like clean?');
-if (clean.toUpperCase() === 'YES' || user.toUpperCase() === 'Y'){
+if (clean.toUpperCase() === 'YES' || clean.toUpperCase() === 'Y'){
   console.log(clean);
   alert('Great! You can clean my car.');
 } else {
@@ -28,7 +28,7 @@ if (clean.toUpperCase() === 'YES' || user.toUpperCase() === 'Y'){
 }
 
 var gamer = prompt('Are you a gamer?');
-if (gamer.toUpperCase() === 'YES' || user.toUpperCase() === 'Y'){
+if (gamer.toUpperCase() === 'YES' || gamer.toUpperCase() === 'Y'){
   console.log('gamer');
   alert('I am a gamer, too.')
 } else {
@@ -37,7 +37,7 @@ if (gamer.toUpperCase() === 'YES' || user.toUpperCase() === 'Y'){
 }
 
 var cook = prompt('Do you like to cook?');
-if (cook.toUpperCase() === 'YES'|| user.toUpperCase() === 'Y'){
+if (cook.toUpperCase() === 'YES'|| cook.toUpperCase() === 'Y'){
   console.log('cook');
   alert('I like to eat, I like to cook.  It is fun to make new dishes.')
 } else {
